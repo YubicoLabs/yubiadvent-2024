@@ -1,0 +1,12 @@
+#
+# Add a christmas hat to all svgs found.
+# 
+#
+
+for SVG in $(find . -iname '*.svg'); do 
+ R=$(( RANDOM % 128 + 128 ))
+ G=$(( RANDOM % 128 + 128 ))
+ B=$(( RANDOM % 128 + 128 ))
+
+ echo $SVG: $R $G $B
+done
