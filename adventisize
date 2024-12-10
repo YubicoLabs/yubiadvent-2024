@@ -1,12 +1,34 @@
+#!/usr/bin/env bash
 #
-# Add a christmas hat to all svgs found.
-# 
+# Add a christmas hat to all svgs found. 
 #
 
-for SVG in $(find . -iname '*.svg'); do 
- R=$(( RANDOM % 128 + 128 ))
- G=$(( RANDOM % 128 + 128 ))
- B=$(( RANDOM % 128 + 128 ))
+XMAS="🎄🎅🎁💝🌲🧝🦄🦌🤶🧑‍🎄🥶❄️🍖☕️🫖"
 
- echo $SVG: $R $G $B
+WELCOME=$0
+
+function decorate() {
+	echo ${XMAS:0:$(( ${#1} / 2))}
+	echo $1
+	echo ${XMAS:0:$(( ${#1} / 2))}
+}
+
+decorate $WELCOME
+echo
+
+find . -name '*.svg' | while read SVG; do
+ R=255
+ G=$(( RANDOM % 128 ))
+ B=$(( RANDOM % 128 ))
+
+ echo -n "${XMAS:$(( RANDOM % ${#XMAS})):1}"
+ sed -i '' 's#0 0 1024 1024#0 0 1536 1536#g;s#\(<circle\)#<g id="original" transform="translate(256,256)">\1#g;s#\(</svg>\)#</g><g id="hat" transform="rotate(-19.664861,2554.5888,-1846.2773)"><path id="🎅" style="fill:rgb('$R', '$G', '$B');stroke:\#ffffff;stroke-width:39.4767;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1" d="M 1.3888427 -777.64079 C -126.41754 -822.85625 -272.88081 -794.17541 -427.74092 -723.17061 L -411.15071 -760.0823 L -459.32489 -749.02795 L -495.42034 -783.89788 L -500.16434 -732.99008 L -543.31109 -708.17992 L -498.06911 -687.77279 L -488.63916 -637.57198 L -455.93489 -675.86625 L -406.96025 -669.64773 L -425.31773 -701.97648 C -290.88513 -689.16754 -86.608888 -639.13439 -273.63981 -347.58743 C -128.15384 -457.46783 0.38614654 -456.79247 307.39427 -419.56777 C 228.26451 -624.2273 123.30628 -734.50873 1.3888427 -777.64079 z "/></g>\1#g' "$SVG"
+
 done
+
+echo -e '\n\nZipping'
+zip -r yubiadvent-icons.zip icons pack.json > /dev/null
+
+echo
+
+decorate "Done, merry christmas"
