@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1536 1536"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Yubico.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   width="1536"
+   height="1536"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath113">
+      <path
+         d="M 0,0 H 1152 V 576 H 0 Z"
+         transform="translate(-1017.375,-153.4036)"
+         id="path113" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.34837439"
+     inkscape:cx="996.05486"
+     inkscape:cy="299.96465"
+     inkscape:window-width="2256"
+     inkscape:window-height="1186"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     id="path3"
+     d="m 0,0 c 4.096,0 7.946,-1.595 10.842,-4.491 2.896,-2.896 4.491,-6.747 4.491,-10.842 0,-4.096 -1.595,-7.946 -4.491,-10.842 C 7.946,-29.071 4.096,-30.666 0,-30.666 c -4.096,0 -7.946,1.595 -10.842,4.491 -2.896,2.896 -4.491,6.746 -4.491,10.842 0,4.095 1.595,7.946 4.491,10.842 C -7.946,-1.595 -4.096,0 0,0"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="matrix(28.981224,0,0,-28.981224,768,323.63089)"
+     clip-path="url(#clipPath113)"
+     sodipodi:nodetypes="csssssssc" />
+  <path
+     id="path111"
+     d="M 782.16539,794.31783 888.20825,493.92747 H 1041.403 L 783.20873,1129.109 H 621.49342 L 695.3955,955.07662 514.63959,493.92747 h 156.43987 z"
+     style="fill:#7dc242;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:28.9812" />
+  <path
+     id="path112"
+     d="m 0,0 c 4.096,0 7.946,-1.595 10.842,-4.491 2.896,-2.896 4.491,-6.747 4.491,-10.842 0,-4.096 -1.595,-7.946 -4.491,-10.842 C 7.946,-29.071 4.096,-30.666 0,-30.666 c -4.096,0 -7.946,1.595 -10.842,4.491 -2.896,2.896 -4.491,6.746 -4.491,10.842 0,4.095 1.595,7.946 4.491,10.842 C -7.946,-1.595 -4.096,0 0,0 m 0,3.603 c -10.458,0 -18.936,-8.478 -18.936,-18.936 0,-10.458 8.478,-18.936 18.936,-18.936 10.458,0 18.936,8.478 18.936,18.936 C 18.936,-4.875 10.458,3.603 0,3.603"
+     style="fill:#7dc242;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="matrix(28.981224,0,0,-28.981224,768,323.63089)"
+     clip-path="url(#clipPath113)" />
+  <g
+     id="g2"
+     transform="rotate(-19.664861,2554.5888,-1846.2773)">
+    <path
+       id="rect1"
+       style="fill:#d40000;stroke:#ffffff;stroke-width:38.4767;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.3888427 -777.64079 C -126.41754 -822.85625 -272.88081 -794.17541 -427.74092 -723.17061 L -411.15071 -760.0823 L -459.32489 -749.02795 L -495.42034 -783.89788 L -500.16434 -732.99008 L -543.31109 -708.17992 L -498.06911 -687.77279 L -488.63916 -637.57198 L -455.93489 -675.86625 L -406.96025 -669.64773 L -425.31773 -701.97648 C -290.88513 -689.16754 -86.608888 -639.13439 -273.63981 -347.58743 C -128.15384 -457.46783 0.38614654 -456.79247 307.39427 -419.56777 C 228.26451 -624.2273 123.30628 -734.50873 1.3888427 -777.64079 z " />
+  </g>
+</svg>

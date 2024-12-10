@@ -4,6 +4,13 @@
     "version": 20241210,
     "icons": [
         {
+            "filename": "icons/1_Primary/Yubico.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Yubico"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/(ISC)2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
