@@ -25,3 +25,6 @@ replay_pid*
 
 # mac files
 .DS_Store
+
+# blender saves
+*.blend1
